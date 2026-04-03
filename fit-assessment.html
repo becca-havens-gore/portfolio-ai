@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Fit Assessment — Rebecca Havens Gore</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'IBM Plex Sans',sans-serif;font-size:16px;line-height:1.6;color:#1A1A1A;background:#FAFAFA;padding:40px 24px;}
+.container{max-width:900px;margin:0 auto;}
+h1{font-family:'Playfair Display',serif;font-size:36px;font-weight:900;margin-bottom:8px;}
+.subtitle{font-size:16px;color:#666;margin-bottom:40px;}
+h2{font-family:'Playfair Display',serif;font-size:22px;margin:40px 0 16px;}
+.tier{margin-bottom:48px;}
+.tier-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px;}
+.tier-1 .tier-label{color:#16a34a;}
+.tier-2 .tier-label{color:#d97706;}
+.tier-3 .tier-label{color:#6b7280;}
+
+.job-card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:20px 24px;margin-bottom:12px;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:10px;flex-wrap:wrap;}
+.job-title{font-weight:700;font-size:17px;}
+.job-company{font-size:14px;color:#666;margin-top:2px;}
+.badges{display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0;}
+.badge{padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;}
+.badge-fit-strong{background:#dcfce7;color:#166534;}
+.badge-fit-good{background:#fef9c3;color:#854d0e;}
+.badge-fit-moderate{background:#f3f4f6;color:#374151;}
+.badge-location{background:#eff6ff;color:#1d4ed8;}
+.badge-location-warn{background:#fef2f2;color:#991b1b;}
+.badge-remote{background:#f0fdf4;color:#166534;}
+.badge-cluster{background:#faf5ff;color:#6d28d9;}
+
+.reasons{margin-top:10px;}
+.reasons ul{margin-left:20px;}
+.reasons li{font-size:14px;color:#444;margin-bottom:4px;}
+.caution{font-size:13px;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:6px;padding:8px 12px;margin-top:10px;}
+
+.cluster-section{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:24px;margin-bottom:24px;}
+.cluster-section h3{font-weight:700;font-size:16px;margin-bottom:8px;}
+.cluster-section p{font-size:14px;color:#555;margin-bottom:10px;}
+.cluster-jobs{display:flex;flex-wrap:wrap;gap:8px;}
+.cluster-badge{padding:5px 12px;background:#f8f8f8;border:1px solid #ddd;border-radius:999px;font-size:13px;font-weight:600;}
+
+.strategy-box{background:#fff7ed;border:2px solid #FF6B2B;border-radius:12px;padding:24px;margin:40px 0;}
+.strategy-box h3{font-weight:700;margin-bottom:8px;color:#FF6B2B;}
+.strategy-box p{font-size:14px;color:#444;line-height:1.7;}
+.strategy-box ul{margin-left:20px;margin-top:8px;}
+.strategy-box li{font-size:14px;color:#444;margin-bottom:6px;}
+
+.deliverables{margin-top:40px;}
+.deliverable{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:20px 24px;margin-bottom:12px;}
+.deliverable h4{font-weight:700;margin-bottom:6px;}
+.deliverable p{font-size:14px;color:#555;}
+.deliverable .target-jobs{font-size:13px;color:#6d28d9;margin-top:6px;font-weight:600;}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Job Fit Assessment</h1>
+  <p class="subtitle">Rebecca Havens Gore &mdash; 12 roles evaluated &bull; April 2026</p>
+
+  <!-- TIER 1 -->
+  <div class="tier tier-1">
+    <div class="tier-label">&#10003; Tier 1 &mdash; Strong Candidates (Apply with targeted materials)</div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Staff Product Designer, Security &amp; Compliance</div><div class="job-company">GitLab &mdash; Remote, Americas</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Very Strong Fit</span><span class="badge badge-remote">Remote US ✓</span><span class="badge badge-cluster">Cluster: Dev Platform</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Rapid7 = security domain expert. You've designed security workflows for 9+ years.</li>
+        <li>Staff level matches your experience. DVS, alerts triage, AI patterns are direct analogs to vulnerability management + security scanner UX.</li>
+        <li>Design system contribution (Pajamas) aligns with your RDS work.</li>
+        <li>Mentorship + culture carrier expectations match your enablement track record.</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: Developer Platform portfolio + Netflix/generic resume</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Senior Product Designer, AI</div><div class="job-company">GitLab &mdash; Remote, US/Canada</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Strong Fit</span><span class="badge badge-remote">Remote ✓</span><span class="badge badge-cluster">Cluster: Dev Platform</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>AI Experience Standard = 12 patterns for AI-assisted investigation. Exact match for Duo Workflow/Duo Chat design challenges.</li>
+        <li>Senior level may be one step below your experience, but range ($140–200K) and scope are appropriate.</li>
+        <li>Your work on agentic AI patterns, confidence surfacing, and explainability is rare and directly applicable.</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: Developer Platform portfolio + Netflix resume</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Staff Product Designer, Copilot</div><div class="job-company">GitHub &mdash; Remote, US</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Strong Fit</span><span class="badge badge-remote">Remote ✓</span><span class="badge badge-cluster">Cluster: Dev Platform</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>AI-powered developer tooling at scale. Your AI patterns + developer empathy + design systems work is precisely what Copilot UX needs.</li>
+        <li>Staff level appropriate. GitHub's Copilot challenges (trust, transparency, control) mirror your AI Experience Standard principles.</li>
+        <li>JD didn't fully load &mdash; apply based on title alignment and your strong fit with GitHub's AI product direction.</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: Developer Platform portfolio + Netflix resume</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Principal AI Product Designer</div><div class="job-company">Siemens / Brightly &mdash; Remote, US</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Very Strong Fit</span><span class="badge badge-remote">Remote ✓</span><span class="badge badge-cluster">Cluster: AI Enterprise</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Near-perfect match for your AI Experience Standard work: responsible AI, explainability, human-in-the-loop, trust models, AI permissions framework.</li>
+        <li>Enterprise B2B asset management = same technical audience complexity as security platform users.</li>
+        <li>"Shapes AI experience principles across the portfolio" = exactly what you did at Rapid7.</li>
+        <li>$145K–$248K. High-influence individual contributor, no management required.</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: AI Experience portfolio + AI Enterprise resume</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Principal Experience Designer</div><div class="job-company">Liberty Mutual &mdash; Remote / Boston / Portsmouth / Indianapolis</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Strong Fit</span><span class="badge badge-remote">Remote ✓</span><span class="badge badge-cluster">Cluster: AI Enterprise</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>10+ yrs, design systems, AI/LLM, data viz &mdash; all present in your background.</li>
+        <li>Design Forum + UX Standards governance aligns with their "shape and maintain design principles/patterns" requirement.</li>
+        <li>Mentorship + raising craft across designers = your enablement work.</li>
+        <li>AI x Design literacy emphasis is a strength given your AI Experience Standard work.</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: AI Experience portfolio + AI Enterprise resume</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Principal UX Designer, Amazon Customer Service Technology</div><div class="job-company">Amazon &mdash; Austin, TX or Seattle, WA</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Strong Fit</span><span class="badge badge-location">Austin ✓</span><span class="badge badge-cluster">Cluster: AI Enterprise</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>AI-powered tools for associates = high-stakes operational users (same as your SOC analysts).</li>
+        <li>"Dual accountability: strategic + hands-on" = how you've operated.</li>
+        <li>Embedded Principal Engineer partnership model mirrors your eng collaboration at Rapid7.</li>
+        <li>Requires 12+ yrs &mdash; you have 12+ if you count from 2013 (Bypass Mobile). ✓</li>
+      </ul></div>
+      <div style="font-size:13px;font-weight:600;color:#166534;margin-top:8px;">Use: AI Experience portfolio + AI Enterprise resume</div>
+    </div>
+  </div>
+
+  <!-- TIER 2 -->
+  <div class="tier tier-2">
+    <div class="tier-label">~ Tier 2 &mdash; Good Candidates (Apply; current portfolio largely works)</div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Principal Product Designer, Vrbo</div><div class="job-company">Expedia Group &mdash; Austin, TX</div></div>
+        <div class="badges"><span class="badge badge-fit-good">Good Fit</span><span class="badge badge-location">Austin ✓</span><span class="badge badge-cluster">Cluster: Consumer Product</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>$224K–$358K Austin range is compelling. In-city role with strong pay.</li>
+        <li>Platform systems thinking, design systems, AI/ML experience, and interaction design breadth all present.</li>
+        <li>Gap: consumer/travel brand experience. Your work is enterprise security, not shopping/discovery. Framing required.</li>
+        <li>Emphasize your cross-product coherence work (UPX) and information architecture skills.</li>
+      </ul></div>
+      <div class="caution">Framing note: Lean into the platform systems angle, not the security domain. Position DVS as "data-dense product decisions" and UPX as "coherent multi-product ecosystems."</div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Staff Product Designer, Knowledge Graph</div><div class="job-company">GitLab &mdash; Remote (EMEA primary)</div></div>
+        <div class="badges"><span class="badge badge-fit-good">Good Fit — Location Risk</span><span class="badge badge-location-warn">EMEA Focus ⚠</span><span class="badge badge-cluster">Cluster: Dev Platform</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Strong skills match: platform-wide cross-cutting design, design systems (Pajamas), mentorship, Staff level.</li>
+        <li>Knowledge Graph = foundational platform infrastructure &mdash; analogous to your UPX/RDS work.</li>
+        <li>Role is listed as Remote-EMEA. GitLab does hire globally but confirm US eligibility with recruiter before investing heavily.</li>
+      </ul></div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Staff Product Designer (Job 5079)</div><div class="job-company">GitHub &mdash; Remote, US</div></div>
+        <div class="badges"><span class="badge badge-fit-good">Likely Good Fit</span><span class="badge badge-remote">Remote ✓</span><span class="badge badge-cluster">Cluster: Dev Platform</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Job page didn't expose full content. Title "Staff Product Designer" at GitHub is strong signal given your experience level.</li>
+        <li>Check GitHub careers directly for the full JD. Given their platform + AI focus, your background likely maps well.</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <!-- TIER 3 -->
+  <div class="tier tier-3">
+    <div class="tier-label">&#x26A0; Tier 3 &mdash; Apply Selectively (Significant barriers or misalignment)</div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Principal Product Design Specialist</div><div class="job-company">Microsoft AI &mdash; Mountain View CA / Redmond WA / NYC only</div></div>
+        <div class="badges"><span class="badge badge-fit-strong">Strong Skills Match</span><span class="badge badge-location-warn">Relocation Required ⚠</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Copilot / Edge / Bing team. Your AI experience work is highly relevant to this team's design challenges.</li>
+        <li><strong>Problem:</strong> Hybrid 4x/week requirement in Mountain View, Redmond, or NYC. You are in Austin. This is a genuine barrier.</li>
+        <li>If you are open to relocation or remote negotiation, this is worth pursuing. If not, deprioritize.</li>
+      </ul></div>
+    </div>
+
+    <div class="job-card">
+      <div class="job-header">
+        <div><div class="job-title">Senior UX Designer, AI Transformation</div><div class="job-company">Google &mdash; NY or Austin</div></div>
+        <div class="badges"><span class="badge badge-fit-moderate">Moderate Fit</span><span class="badge badge-location">Austin ✓</span></div>
+      </div>
+      <div class="reasons"><ul>
+        <li>Austin option is good. $159K–$231K salary range.</li>
+        <li>Role is "Mid" level (6 yrs minimum). You likely appear overqualified, which can work for or against you.</li>
+        <li>Primary focus is internal marketing ecosystem service design &mdash; journey mapping, service blueprints, org transformation. Less product UX, more service/ops design.</li>
+        <li>You have these skills (service blueprints are in your generic resume) but it's not your core strength.</li>
+      </ul></div>
+      <div class="caution">Apply if you're interested in internal tools and org-level AI transformation work. Use your generic resume and portfolio as-is.</div>
+    </div>
+  </div>
+
+  <!-- CLUSTER STRATEGY -->
+  <h2>Portfolio &amp; Resume Cluster Strategy</h2>
+  <p style="font-size:14px;color:#555;margin-bottom:20px;">Rather than creating 10+ versions, group jobs by what they need to see first. Three clusters, three resume variants, two portfolio versions.</p>
+
+  <div class="cluster-section">
+    <h3>&#128104;&#8205;&#128187; Cluster A: Developer Platform + Security</h3>
+    <p>Lead with your observability/telemetry design work and AI patterns for engineers. The current portfolio index.html is already targeted here.</p>
+    <div class="cluster-jobs">
+      <span class="cluster-badge">GitLab: Senior AI Designer</span>
+      <span class="cluster-badge">GitLab: Staff Security &amp; Compliance</span>
+      <span class="cluster-badge">GitLab: Staff Knowledge Graph</span>
+      <span class="cluster-badge">GitHub: Staff Copilot</span>
+      <span class="cluster-badge">GitHub: Staff Designer (5079)</span>
+    </div>
+    <p style="font-size:13px;color:#888;margin-top:10px;">Resume: Netflix-targeted PDF (2-page). Portfolio: current index.html</p>
+  </div>
+
+  <div class="cluster-section">
+    <h3>&#129302; Cluster B: AI Experience Architecture + Enterprise B2B</h3>
+    <p>Lead with your AI Experience Standard, responsible AI principles, and trust/explainability patterns. These companies hire for the AI standards role you already built.</p>
+    <div class="cluster-jobs">
+      <span class="cluster-badge">Siemens / Brightly</span>
+      <span class="cluster-badge">Liberty Mutual</span>
+      <span class="cluster-badge">Amazon CS Technology</span>
+    </div>
+    <p style="font-size:13px;color:#888;margin-top:10px;">Resume: NEW — AI Experience Architect resume (PDF). Portfolio: NEW — AI Experience index page</p>
+  </div>
+
+  <div class="cluster-section">
+    <h3>&#127940; Cluster C: Consumer Product / General</h3>
+    <p>Your broader platform and systems work, de-emphasized security context. Lean into the breadth: data-dense systems, interaction design, AI integration.</p>
+    <div class="cluster-jobs">
+      <span class="cluster-badge">Expedia / Vrbo</span>
+      <span class="cluster-badge">Google AI Transformation</span>
+    </div>
+    <p style="font-size:13px;color:#888;margin-top:10px;">Resume: Generic 4-page PDF (largely works as-is). Portfolio: current index.html</p>
+  </div>
+
+  <!-- DELIVERABLES -->
+  <h2>Deliverables in This Package</h2>
+  <div class="deliverable">
+    <h4>&#128196; Resume A — Developer Platform / Observability</h4>
+    <p>The Netflix-targeted 2-page resume you already have. Clean, observability-framed, strong for developer tools companies.</p>
+    <div class="target-jobs">&#8594; GitLab (all 3), GitHub (both), Netflix</div>
+  </div>
+  <div class="deliverable">
+    <h4>&#128196; Resume B — AI Experience Architect (NEW)</h4>
+    <p>Leads with your AI Experience Standard work, responsible AI principles, trust/explainability patterns. Reordered to put AI work front-and-center.</p>
+    <div class="target-jobs">&#8594; Siemens/Brightly, Liberty Mutual, Amazon CS Technology</div>
+  </div>
+  <div class="deliverable">
+    <h4>&#128196; Resume C — Consumer/General</h4>
+    <p>Your existing 4-page generic resume. Already well-structured. Use as-is for Vrbo and Google.</p>
+    <div class="target-jobs">&#8594; Expedia/Vrbo, Google AI Transformation</div>
+  </div>
+  <div class="deliverable">
+    <h4>&#127760; Portfolio — Developer Platform (current index.html)</h4>
+    <p>Already live and targeted. Leads with DVS/observability, AI patterns for technical users. No changes needed for Cluster A.</p>
+    <div class="target-jobs">&#8594; GitLab (all 3), GitHub (both), Netflix</div>
+  </div>
+  <div class="deliverable">
+    <h4>&#127760; Portfolio — AI Experience + Enterprise (NEW: index-ai-enterprise.html)</h4>
+    <p>Leads with AI Experience Standard. Hero emphasizes responsible AI and human-in-the-loop design. About section reframed for enterprise AI context. Skills lead with AI expertise.</p>
+    <div class="target-jobs">&#8594; Siemens/Brightly, Liberty Mutual, Amazon CS Technology</div>
+  </div>
+
+  <div class="strategy-box">
+    <h3>Quick-Win Fixes on Both Resumes</h3>
+    <p>Before applying anywhere, fix these issues present in the current resume files:</p>
+    <ul>
+      <li><strong>BA school discrepancy:</strong> 4-page generic PDF lists "University of Texas at Austin" for the BA. This is incorrect — it should be Vassar College. Correct this in any submission.</li>
+      <li><strong>Dates:</strong> The Netflix-targeted resume lists April 2016–Present for the entire Rapid7 tenure, which is accurate but collapses two distinct roles. The 4-page version correctly separates them — use that structure when applying to companies that want depth.</li>
+      <li><strong>Years of experience:</strong> Starting from Bypass Mobile (July 2013) you have 12+ years. Amazon requires 12+ — make sure your resume makes this clear by using "13+ years" in your summary.</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
